@@ -28,8 +28,16 @@ section:first-child img {
     margin-top: 2rem;
 }
 
+article a {
+    background: #e23e57;
+    border-radius: 0.75rem;
+    font-weight: 550;
+    padding: 0.01rem 0.25rem;
+}
+
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
@@ -53,7 +61,6 @@ a:hover {
 }
 
 .nav-list a {
-    color: white;
     font-weight: 700;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -88,6 +95,12 @@ a:hover {
 .other-articles-section {
     display: flex;
     justify-content: center;
+    padding-bottom: 2rem;
+}
+
+#git-workflow { 
+    margin-top: 1.15rem;
+    width: 102.5%;
 }
 
 .other-articles {
@@ -96,12 +109,13 @@ a:hover {
     padding-bottom: 4rem;
 }
 
-.other-articles img {
-    width: 25%;
+.other-text {
+    padding-top: 1rem;
 }
 
-.other-text {
-   padding-top: 1rem;
+#third-article {
+    margin-top: -1rem;
+    margin-left: 1.25rem;
 }
 
 footer {
